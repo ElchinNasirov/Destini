@@ -99,10 +99,11 @@
 		362D8D4027B5C2D500202F55 /* Destini */ = {
 			isa = PBXGroup;
 			children = (
-				362D8D4127B5C2D500202F55 /* AppDelegate.swift */,
 				362D8D4327B5C2D500202F55 /* SceneDelegate.swift */,
-				362D8D4527B5C2D500202F55 /* ViewController.swift */,
-				362D8D4727B5C2D500202F55 /* Main.storyboard */,
+				362D8D4127B5C2D500202F55 /* AppDelegate.swift */,
+				362D8D7127B5D78400202F55 /* Model */,
+				362D8D7227B5D79600202F55 /* View */,
+				362D8D7327B5D7B500202F55 /* Controller */,
 				362D8D4A27B5C2D600202F55 /* Assets.xcassets */,
 				362D8D4C27B5C2D600202F55 /* LaunchScreen.storyboard */,
 				362D8D4F27B5C2D600202F55 /* Info.plist */,
@@ -125,6 +126,29 @@
 				362D8D6427B5C2D600202F55 /* DestiniUITestsLaunchTests.swift */,
 			);
 			path = DestiniUITests;
+			sourceTree = "<group>";
+		};
+		362D8D7127B5D78400202F55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		362D8D7227B5D79600202F55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				362D8D4727B5C2D500202F55 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		362D8D7327B5D7B500202F55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				362D8D4527B5C2D500202F55 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
