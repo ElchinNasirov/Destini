@@ -48,6 +48,14 @@ struct StoryBrain {
         return stories[storyNumber].title
     }
     
+    func getChoice1() -> String {
+        return stories[storyNumber].choice1
+    }
+    
+    func getChoice2() -> String {
+        return stories[storyNumber].choice2
+    }
+    
     mutating func nextStory(userChoice: String) {
         let currentStory = stories[storyNumber]
         
