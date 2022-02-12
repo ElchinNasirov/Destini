@@ -10,8 +10,11 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var storyLabel: UILabel!
-    @IBOutlet weak var choice1Button: UIButton!
-    @IBOutlet weak var choice2Button: UIButton!
+//    @IBOutlet weak var choice1Button: UIButton!
+//    @IBOutlet weak var choice2Button: UIButton!
+    
+    @IBOutlet weak var Choice1Button: UIButton!
+    @IBOutlet weak var Choice2Button: UIButton!
     
     let storyBrain = StoryBrain()
     

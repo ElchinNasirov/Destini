@@ -29,7 +29,7 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mss-Qm-Zdg" userLabel="Choice1Btn">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mss-Qm-Zdg" userLabel="Choice1Button">
                                         <rect key="frame" x="0.0" y="598" width="374" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="2ux-en-Hxw"/>
@@ -43,7 +43,7 @@
                                             <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i1C-bI-NP2"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7s-pT-kXu" userLabel="Choice2Btn">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7s-pT-kXu" userLabel="Choice2Button">
                                         <rect key="frame" x="0.0" y="718" width="374" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="Xna-tX-sd2"/>
@@ -70,6 +70,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="Choice1Button" destination="mss-Qm-Zdg" id="FdA-lP-r2o"/>
+                        <outlet property="Choice2Button" destination="T7s-pT-kXu" id="6Zl-ML-K8m"/>
                         <outlet property="storyLabel" destination="vUD-dv-fjG" id="365-Hr-S6e"/>
                     </connections>
                 </viewController>
