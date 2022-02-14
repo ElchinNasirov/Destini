@@ -40,7 +40,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i1C-bI-NP2"/>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4J9-yt-Lcv"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7s-pT-kXu" userLabel="Choice2Button">
@@ -54,7 +54,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g1t-KK-L9w"/>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YZF-Fr-TlU"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -70,8 +70,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="Choice1Button" destination="mss-Qm-Zdg" id="FdA-lP-r2o"/>
-                        <outlet property="Choice2Button" destination="T7s-pT-kXu" id="6Zl-ML-K8m"/>
+                        <outlet property="choice1Button" destination="mss-Qm-Zdg" id="7ZC-AB-Nji"/>
+                        <outlet property="choice2Button" destination="T7s-pT-kXu" id="YC7-Z9-wXH"/>
                         <outlet property="storyLabel" destination="vUD-dv-fjG" id="365-Hr-S6e"/>
                     </connections>
                 </viewController>
